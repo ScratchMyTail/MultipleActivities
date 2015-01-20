@@ -28,7 +28,7 @@ public class SecondActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.putExtra("key", edtxt.getText().toString());
-                setResult(RESULT_OK, intent);
+                setResult(1, intent);
                 finish();
             }
         });

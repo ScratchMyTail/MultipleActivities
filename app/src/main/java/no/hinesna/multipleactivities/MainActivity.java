@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
                 EditText edtxt = (EditText)findViewById(R.id.editText);
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("key", edtxt.getText().toString());
-                startActivityForResult(intent, RESULT_OK);
+                startActivityForResult(intent, 1);
             }
         });
     }
